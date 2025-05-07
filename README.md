@@ -1,17 +1,8 @@
 # BodyShape
-Obesity significantly impacts musculoskeletal health and alters walking biomechanics. This study aimed to
-
-quantify the influence of obesity on knee angle changes during various walking tasks and identify associ-ated anthropometric predictors. 
+Obesity significantly impacts musculoskeletal health and alters walking biomechanics. This study aimed to quantify the influence of obesity on knee angle changes during various walking tasks and identify associ-ated anthropometric predictors. 
 We analyzed motion sensor data from 35 participants (15 normal-weight, 27 obese) performing six distinct walking tasks (e.g., preferred speed, obstacle negotiation). 
 Knee angle difference (InitialPeak) was the primary outcome. Exploratory data analysis (EDA), including correlation analysis and Variance Inflation Factor (VIF) assessment, guided variable selection. Linear Mixed-Effects
-Models (LMM), Generalized Additive Mixed Models (GAMM), and Bayesian Mixed Models were developed, incorporating fixed effects for group, demographics, and selected body measurements, with random inter-
-cepts for participant and task. Model performance was compared using ANOVA and 5-fold cross-validation (RMSE, R2). 
-Two-sample t-tests compared knee angle differences between groups for each task. EDA and
-t-tests revealed significantly reduced knee angle differences in the obese group across most tasks (p < 0.05),
-suggesting less knee flexion. The final LMM demonstrated the best fit and predictive performance (Avg
-CV RMSE ≈ 2.59, Avg CV R2 ≈ 0.68), identifying significant associations between knee angle difference
-and Shoulder Breadth (positive), Chest Breadth (negative), Lower Thigh Circumference (negative), Shank
-Circumference (negative), and A Body Shape Index (ABSI, negative). Significant variability was attributed
-to both participant and task random effects. In conclusion, obesity is associated with reduced knee flexion
-during walking, and specific body dimensions beyond BMI contribute significantly to these biomechanical
-alterations.
+Models (LMM), Generalized Additive Mixed Models (GAMM), and Bayesian Mixed Models were developed, incorporating fixed effects for group, demographics, and selected body measurements, with random intercepts for participant and task. Model performance was compared using ANOVA and 5-fold cross-validation (RMSE, R2). 
+Two-sample t-tests compared knee angle differences between groups for each task. EDA and t-tests revealed significantly reduced knee angle differences in the obese group across most tasks (p < 0.05),
+suggesting less knee flexion. The final LMM demonstrated the best fit and predictive performance (Avg CV RMSE ≈ 2.59, Avg CV R2 ≈ 0.68), identifying significant associations between knee angle difference
+and Shoulder Breadth (positive), Chest Breadth (negative), Lower Thigh Circumference (negative), Shank Circumference (negative), and A Body Shape Index (ABSI, negative). Significant variability was attributed to both participant and task random effects. In conclusion, obesity is associated with reduced knee flexion during walking, and specific body dimensions beyond BMI contribute significantly to these biomechanical alterations.
